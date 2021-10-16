@@ -20,10 +20,10 @@ buttonAnimation(key);
 function makesound(key){
     switch (key) {
         case 'w':
-         var crash = new Audio('/sounds/crash.mp3');
+         var crash = new Audio('../sounds/crash.mp3');
          crash.play();
             break;
-        case 'a':  var kickBass = new Audio('/sounds/kick-bass.mp3');
+        case 'a':  var kickBass = new Audio('../sounds/kick-bass.mp3');
         kickBass.play();
             
             break;
